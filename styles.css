@@ -158,13 +158,13 @@ div.spacer {
 }
 
 section.header {
-  height: 65vh;
+  height: 100vh;
 }
 
 section.header img {
   position: absolute;
   left: 50%;
-  top: calc(65vh / 2 + 65pt);
+  top: 50%;
   max-width: 300pt;
   transform: translate(-50%, -50%);
   z-index: 3;
@@ -172,7 +172,7 @@ section.header img {
 
 section.header .gradient {
   width: 100%;
-  height: 65vh;
+  height: 100%;
 }
 
 section.header .gradient.layer1 {
